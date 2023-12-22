@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <script src="./reg.js"></script>
     <div class="hedar">
         <div class="hedar_img"></div>
         <div class="hedar_heading_text">Welcome back</div>
@@ -14,28 +15,31 @@
         <div class="hedar_password_text">Password</div>
         <div class="hedar_password_block"></div>
 <form  class="hedar_password_text2">
-    <label for="text-input"></label>
-    <input type="text" id="text-input" name="text-input">
+    <label for="choose"></label>
+    <input required minlength="3" type="text" id="Email" placeholder="Email Address" onkeyup="validate()" name="name" aria-describedby="name-validation">
+        <span id="name-validation" aria-live="assertive" class="validation-message"></span>
   </form>
         <div class="hedar_password_text3">Email</div>
         <div class="hedar_password_block2"></div>
-        <form  class="hedar_password_text4"">
-    <label for="text-input"></label>
-    <input type="Password" id="text-input" name="text-input">
-  </form>"	
+        <form  class="hedar_password_text4">
+    <label for="choose"></label></label>
+    <input required minlength="3" type="password" id="name" name="name" placeholder="Password" aria-describedby="name-validation">
+        <span id="name-validation" aria-live="assertive" class="validation-message"></span>
+  </form>
         <div class="hedar_password_consent">
 	<label>
 <input type="checkbox"/>
 	</label>
 </div>
         <div class="hedar_password_consent2">Remember me</div>
-        <div class="hedar_password_consent3">Forgot password?</div>
+        <a href="@" class="hedar_password_consent3">Forgot password?</a>
         <a href="@" class="hedar_password_basement-block"></a>
         <a href="@" class="hedar_password_basement-text">Login now</a>
         <a href="https://www.google.ru/?safe=active&ssui=on" class="hedar_password_basement-block2"></a>
         <a href="https://www.google.ru/?safe=active&ssui=on" class="hedar_password_basement-img"></a>
         <a href="https://www.google.ru/?safe=active&ssui=on" class="hedar_password_basement-text2">Or sign-in with google</a>
-        <div class="hedar_password_basement-text3">Dont have an account? Join free today</div>
+        <a href="@" class="hedar_password_basement-text3">Dont have an account? Join free today</A>
     </div>
+
 </body>
 </html>
