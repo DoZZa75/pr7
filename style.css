@@ -2,6 +2,14 @@
     display: flex;
     justify-content: space-between;
 }
+a{
+text-decoration: none;
+}
+input[type="text"]
+{
+    font-size:16px;
+color:#0C7888;
+}
 .hedar_img{
     background: url(./image\ 1.png);
     width: 720px;
@@ -62,6 +70,13 @@ line-height: normal;
 position: absolute;
 margin-top: 359px;
 margin-left: 933px;
+input{
+border-radius: 8px;
+   width: 350px;
+  height: 50px;
+  margin-left: -20px;
+  margin-top: -30px;
+}
 }
 .hedar_password_text3{
 color: var(--700, #4A5568);
@@ -94,6 +109,13 @@ line-height: normal;
 position: absolute;
 margin-top: 453px;
 margin-left: 933px;
+input{
+border-radius: 8px;
+   width: 350px;
+  height: 50px;
+  margin-left: -20px;
+  margin-top: -30px;
+}
 }
 .hedar_password_consent{
  width: 15px;
